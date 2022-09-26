@@ -436,6 +436,7 @@ body {
     #sec4 {
         grid-template-areas: "con" "con" "con" "con";
         grid-template-columns: 1fr;
+        grid-gap: 60px;
     }
     #con {
         margin: 0% 0% 5% 0%;
