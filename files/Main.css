@@ -474,7 +474,7 @@ body {
         grid-template-areas: "seg6" "seg7" "seg8";
         grid-template-columns: 1fr;
         text-align: center;
-        height: 140vh;
+        height: 160vh;
     }
     #abseg {
         margin-bottom: -7%;
@@ -485,7 +485,7 @@ body {
 
 /* #BAC8D3 */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:250px) {
     body {
         overflow-x: hidden;
     }
@@ -496,17 +496,26 @@ body {
         text-align: center;
         justify-items: center;
     }
+    #seg1 h6 {
+        font-size: 1em;
+    }
     #seg2 {
         grid-template-areas: "mseg" "mseg" "mseg" "mseg";
         grid-template-columns: 1fr;
     }
     #nseg {
         justify-self: center;
-        width: 300px;
+        width: 200px;
+    }
+    #nlog {
+        font-size: 2em;
+    }
+    #smbtn {
+        margin-top: 70px;
     }
     #content1 img {
-        height: 300px;
-        width: 300px;
+        height: 230px;
+        width: 230px;
     }
     #mseg {
         padding: 5% 10%;
@@ -537,5 +546,13 @@ body {
     }
     #seg1 h1 {
         font-size: 2.5em;
+    }
+    #content3 img {
+        height: 220px;
+        width: 200px;
+    }
+    #con {
+        height: 220px;
+        width: 200px;
     }
 }
