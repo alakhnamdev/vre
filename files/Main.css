@@ -475,10 +475,8 @@ body {
         grid-template-areas: "seg6" "seg7" "seg8";
         grid-template-columns: 1fr;
         text-align: center;
-        height: 74vh;
-    }
-    #abseg {
-        margin-bottom: -7%;
+        align-content: center;
+        height: 55em;
     }
     /* About Ends */
 }
