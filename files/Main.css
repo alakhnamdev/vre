@@ -107,8 +107,8 @@ body {
     margin: -15% 20% 5% 20%;
     background-color: rgba(255, 255, 255, 0.76);
     justify-content: center;
-    padding: 2% 5%;
     backdrop-filter: blur(7px);
+    padding: 1.7%;
     box-shadow: 0px 0px 40px 0px rgba(94, 82, 82, 0.2);
 }
 
@@ -118,12 +118,12 @@ body {
     font-weight: 900;
     color: #2d365c;
     height: 10vh;
-    margin-top: -3%;
+    margin-top: -5%;
 }
 
 #part h6 {
-    margin-top: -2%;
     font-size: small;
+    margin: 0;
 }
 
 
@@ -142,7 +142,7 @@ body {
     font-size: 4em;
     font-weight: 900;
     font-family: playfair display;
-    margin-bottom: 3%;
+    margin: 3% 0%;
     color: #2a3748;
 }
 
@@ -184,7 +184,7 @@ body {
     border-radius: 10px;
     font-size: 1em;
     border: none;
-    width: 30vh;
+    width: em;
     color: #f8f9fb;
     padding: 3% 6%;
     box-shadow: 0px 0px 5px 2px rgba(255, 166, 0, 0.2);
@@ -253,7 +253,7 @@ body {
     border-radius: 10px;
     font-size: 1em;
     border: none;
-    width: 20vh;
+    width: 8em;
     color: #f8f9fb;
     padding: 3% 6%;
     box-shadow: 0px 0px 5px px rgba(255, 166, 0, 0.2);
@@ -410,7 +410,7 @@ body {
     /* content 2 */
     #content2 {
         margin: -10% 10% 10% 10%;
-        padding: 10% 3% 3% 7%;
+        padding-top: 5%;
         background-color: #f8f9fb;
         box-shadow: 0px 0px 20px 0px rgba(94, 82, 82, 0.2);
         align-content: center;
@@ -430,7 +430,7 @@ body {
         margin-top: -1%;
     }
     #sec3 {
-        margin: 7% 0%;
+        margin: 10% 10%;
         font-size: 3em;
     }
     #sec4 {
@@ -475,7 +475,7 @@ body {
         grid-template-areas: "seg6" "seg7" "seg8";
         grid-template-columns: 1fr;
         text-align: center;
-        height: 160vh;
+        height: 74vh;
     }
     #abseg {
         margin-bottom: -7%;
@@ -507,6 +507,7 @@ body {
     #nseg {
         justify-self: center;
         width: 200px;
+        padding: 10%;
     }
     #nlog {
         font-size: 2em;
@@ -535,12 +536,13 @@ body {
         font-size: 2.5em;
     }
     #content2 {
-        /* margin: -15% 20% 5% 20%; */
+        margin: 0% 4% 5% 4%;
         margin-top: 5%;
+        height: 5em;
     }
     #part {
         font-size: 1em;
-        margin-top: 15%;
+        margin-top: 100%;
     }
     #part h6 {
         font-size: 0.7em;
@@ -558,5 +560,11 @@ body {
     }
     #cbtn {
         width: 100%;
+    }
+    #sec4 {
+        grid-gap: 60px;
+    }
+    #smbtn {
+        width: 12em;
     }
 }
