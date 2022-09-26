@@ -108,8 +108,9 @@ body {
     background-color: rgba(255, 255, 255, 0.76);
     justify-content: center;
     backdrop-filter: blur(7px);
-    padding: 1.7%;
+    padding: 2% 5% 2% 5%;
     box-shadow: 0px 0px 40px 0px rgba(94, 82, 82, 0.2);
+    /* align-content: center; */
 }
 
 #part {
@@ -117,8 +118,6 @@ body {
     font-size: 2em;
     font-weight: 900;
     color: #2d365c;
-    height: 10vh;
-    margin-top: -5%;
 }
 
 #part h6 {
@@ -535,11 +534,10 @@ body {
     }
     #content2 {
         margin: 0% 4% 5% 4%;
-        margin-top: 5%;
+        padding: 5% 5% 5% 5%;
     }
     #part {
         font-size: 1em;
-        /* margin-top: 100%; */
     }
     #part h6 {
         font-size: 0.7em;
