@@ -484,3 +484,58 @@ body {
 
 
 /* #BAC8D3 */
+
+@media only screen and (max-width:500px) {
+    body {
+        overflow-x: hidden;
+    }
+    #content4 {
+        grid-template-areas: "seg1" "seg2";
+        grid-template-columns: 1fr;
+        justify-self: center;
+        text-align: center;
+        justify-items: center;
+    }
+    #seg2 {
+        grid-template-areas: "mseg" "mseg" "mseg" "mseg";
+        grid-template-columns: 1fr;
+    }
+    #nseg {
+        justify-self: center;
+        width: 300px;
+    }
+    #content1 img {
+        height: 300px;
+        width: 300px;
+    }
+    #mseg {
+        padding: 5% 10%;
+        justify-self: center;
+    }
+    #mseg h5 {
+        font-size: 0.7em;
+        text-align: center;
+    }
+    #sec1 h1 {
+        font-size: 2.1em;
+        font-family: playfair display;
+        color: #2a3748;
+    }
+    #sec3 {
+        font-size: 2.5em;
+    }
+    #content2 {
+        /* margin: -15% 20% 5% 20%; */
+        margin-top: 5%;
+    }
+    #part {
+        font-size: 1em;
+        margin-top: 15%;
+    }
+    #part h6 {
+        font-size: 0.7em;
+    }
+    #seg1 h1 {
+        font-size: 2.5em;
+    }
+}
