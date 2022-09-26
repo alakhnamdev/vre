@@ -556,4 +556,7 @@ body {
         height: 220px;
         width: 200px;
     }
+    #cbtn {
+        width: 100%;
+    }
 }
